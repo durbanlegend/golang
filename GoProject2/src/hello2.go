@@ -11,6 +11,6 @@ const APP_VERSION = "0.1"
 var versionFlag *bool = flag.Bool("v", false, "Print the version number.")
 
 func main() {
-    fmt.Println("Version:", APP_VERSION)
+    fmt.Println("Hello, world!... Version:", APP_VERSION)
 }
 
